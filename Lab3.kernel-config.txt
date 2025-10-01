@@ -1,0 +1,42 @@
+Nandish Jha NAJ474 11282001
+Part 2
+
+
+
+I disabled the following kernel options because they are unnecessary for
+running a Linux kernel in a Virtual Machine:
+
+1. Sound card support
+   - The VM does not need audio functionality, so sound drivers are not
+      required.
+
+2. Network device support → Wireless LAN and USB Network Adapters
+   - The VM uses a virtual Ethernet interface, not Wi-Fi or USB-based network
+      adapters.
+
+3. Macintosh device drivers
+   - This kernel will not be running on Apple hardware.
+
+4. Watchdog Timer support
+   - No watchdog hardware is present in the VM; disabling avoids unneeded
+      overhead.
+
+5. NVMEM Support (/sys/bus/nvmem/devices/*/nvmem)
+   - Non-volatile memory devices are not used in this environment.
+
+6. PCCard (PCMCIA/CardBus) support
+   - Obsolete laptop hardware; not present in a modern VM.
+
+7. Microsoft Surface platform-specific drivers
+   - The kernel is not targeting Microsoft Surface devices.
+
+8. Input device support → Joysticks, Gamepads, Tablets, Touchscreens
+   - The VM will only use standard keyboard/mouse input.
+
+9. Network support → Wireless
+   - Wireless networking is not needed since the VM uses bridged/NAT Ethernet.
+
+10. File systems → Quota support and Network File Systems
+    - Disk quotas and network file systems (NFS, CIFS) are not needed for this
+      environment.
+
