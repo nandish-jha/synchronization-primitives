@@ -1,0 +1,29 @@
+Nandish Jha NAJ474 11282001
+Part 1 - Barbershop Problem
+
+
+
+Barber PID = 0
+Customer 0 PID = 1
+Customer 1 PID = 2
+Customer 2 PID = 3
+Customer 3 PID = 4
+Customer 4 PID = 5
+Customer 5 PID = 6
+Customer 6 PID = 7
+	Customer 5 walking out of shop
+	Customer 6 walking out of shop
+	Customer 1 is getting haircut
+		Barber is giving haircut
+	Customer 2 is getting haircut
+		Barber is giving haircut
+	Customer 3 is getting haircut
+		Barber is giving haircut
+	Customer 4 is getting haircut
+		Barber is giving haircut
+	Customer 0 is getting haircut
+		Barber is giving haircut
+
+Barber finished all haircuts
+
+exiting threads
