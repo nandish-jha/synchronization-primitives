@@ -1,0 +1,33 @@
+Nandish Jha NAJ474 11282001
+
+
+
+commit ebc206f365e9a0a69c5438e165ffdc9b09112e8c
+Author: naj474 <naj474@usask.ca>
+Date:   Tue Sep 30 22:08:04 2025 -0600
+
+    Adding git log
+
+commit 10c8128614db4b047134f36c64226c2cf711dc34
+Author: naj474 <naj474@usask.ca>
+Date:   Tue Sep 30 22:02:11 2025 -0600
+
+    Major modificaitons in all the files: name info on the top, design text file major rewordings.
+
+commit f79bc892b42eeb0c59faf243182e18f4d713f32f
+Author: naj474 <naj474@usask.ca>
+Date:   Tue Sep 30 20:56:02 2025 -0600
+
+    Changed the approach to what was shown in the textbook.
+
+commit ab7a0d85446cd1f0f2fcd1f687ba587a37f8fbc8
+Author: naj474 <naj474@usask.ca>
+Date:   Tue Sep 30 18:45:28 2025 -0600
+
+    Made a skeleton code for barber shop problem.
+
+commit c688fed1c47bcd703a11cb5d99add075c0000b17
+Author: naj474 <naj474@usask.ca>
+Date:   Mon Sep 29 22:41:30 2025 -0600
+
+    Initial commit
